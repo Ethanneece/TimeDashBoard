@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+<body>
+  <main>
+    <section class="user">  
+      <div class="userContainer">
+        <img class="profilePic" src="images/image-jeremy.png" alt="profilePic">
+        <div class="title">
+          <h2 class="profileHeader">
+            Report for
+          </h2>
+          <h1 class="profileName">
+            Jeremy Robson
+          </h1>
+        </div>
+      </div>
+      <div class="metricSwitch">
+        <button id="daily" class="metricButton metricChoice">
+          Daily
+        </button>
+        <button id="weekly" class="metricButton">
+          Weekly
+        </button>
+        <button id="monthly" class="metricButton">
+          Monthly
+        </button>
+      </div>
+    </section>
+    <div class="timeSection">
+      <section class="work">
+        <div class="hours summaryContainer">
+          <div class="contentHeader">
+            <h1 class="timeHeader">
+              Work
+            </h1>
+            <img src="images/icon-ellipsis.svg" class ="ellipsis" alt="ellipsis">
+          </div>
+          <div class="amountContainer">
+            <h1 id="Work Current" class="timeAmount">
+              5hrs
+            </h1> 
+            <h3 id="Work Previous"class="previousTimeAmount">
+              Last Week - 7hrs
+            </h3>
+          </div>
+        </div> 
+      </section>
+      <section class="play">
+        <div class="hours summaryContainer">
+          <div class="contentHeader">
+            <h1 class="timeHeader">
+              Play
+            </h1>
+            <img src="images/icon-ellipsis.svg" class ="ellipsis" alt="ellipsis">
+          </div>
+          <div class="amountContainer">
+            <h1 id="Play Current" class="timeAmount">
+              1hr
+            </h1> 
+            <h3 id="Play Previous" class="previousTimeAmount">
+              Last Week - 2hrs
+            </h3>
+          </div> 
+        </div>
+      </section>
+
+      <section class="study">
+        <div class="hours summaryContainer">
+          <div class="contentHeader">
+            <h1 class="timeHeader">
+              Study
+            </h1>
+            <img src="images/icon-ellipsis.svg" class ="ellipsis" alt="ellipsis">
+          </div> 
+          <div class="amountContainer">
+            <h1 id="Study Current" class="timeAmount">
+              0hrs
+            </h1>
+            <h3 id="Study Previous" class="previousTimeAmount">
+              Last Week - 1hr
+            </h3>
+          </div>
+        </div>
+      </section> 
+
+      <section class="exercise">
+        <div class="hours summaryContainer">
+          <div class="contentHeader">
+            <h1 class="timeHeader">
+              Exercise
+            </h1>
+            <img src="images/icon-ellipsis.svg" class ="ellipsis" alt="ellipsis">
+          </div>
+          <div class="amountContainer">
+            <h1 id="Exercise Current" class="timeAmount">
+              1hr
+            </h1> 
+            <h3 id="Exercise Previous" class="previousTimeAmount">
+              Last Week - 1hr 
+            </h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="social">
+        <div class="hours summaryContainer">
+          <div class="contentHeader">
+            <h1 class="timeHeader">
+              Social
+            </h1>
+            <img src="images/icon-ellipsis.svg" class ="ellipsis" alt="ellipsis">
+          </div>
+          <div class="amountContainer">
+            <h1 id="Social Current" class="timeAmount">
+              1hr
+            </h1> 
+            <h3 id="Social Previous" class="previousTimeAmount">
+              Last Week - 3hrs
+            </h3>
+          </div>
+        </div> 
+      </section>
+
+      <section class="selfCare">
+        <div class="hours summaryContainer">
+          <div class="contentHeader">
+            <h1 class="timeHeader">
+              Self Care
+            </h1>
+            <img src="images/icon-ellipsis.svg" class ="ellipsis" alt="ellipsis">
+          </div>
+          <div class="amountContainer">
+            <h1 id="Self Care Current" class="timeAmount">
+              0hrs
+            </h1>
+            <h3 id="Self Care Previous" class="previousTimeAmount">
+              Last Week - 1hr
+            </h3>
+          </div>
+        </div> 
+      </section>
+    </div>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
